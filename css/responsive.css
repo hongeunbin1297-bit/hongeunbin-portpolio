@@ -1,0 +1,520 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:1440px) {
+
+    .section3-text {
+        font-size: 3rem;
+    }
+
+
+    .bing {
+        width: 100%;
+        height: 100px;
+    }
+
+    .hypen {
+        width: 100%;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width:1312px) {
+
+    .appdesign-1 {
+        flex-wrap: wrap;
+    }
+
+    .profiletext h2,
+    .profiletext-2 h2 {
+        font-size: 1.8rem;
+    }
+
+    .profile {
+        gap: 20px;
+    }
+
+    .ballon {
+        display: none;
+    }
+
+    .apppopup {
+        top: 63%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+
+
+    .section-1 .introtext-2 p {
+        font-size: 3rem;
+        line-height: 80px;
+    }
+
+    .profile {
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profilemain-2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profiletext-2 {
+        width: 80%;
+        justify-content: space-around;
+        line-height: 15px;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .profiletext {
+        width: 80%;
+        justify-content: space-around;
+        line-height: 15px;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .profiletext h2,
+    .profiletext-2 h2 {
+        width: fit-content;
+        color: rgb(10, 10, 10);
+        font-size: 1rem;
+        margin-bottom: 3%;
+        font-family: 'nanum';
+    }
+
+    .profilemain-2 {
+        gap: 10px;
+    }
+
+    .profiletext {
+        line-height: 35px;
+        gap: 10px;
+        font-size: 1rem;
+    }
+
+    .profiletext-2 {
+        line-height: 35px;
+        gap: 10px;
+        font-size: 1rem;
+    }
+
+    .profilemain {
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maintext span {
+        font-size: 3rem;
+        color: rgb(10, 10, 10);
+        z-index: 20;
+        font-weight: bold;
+    }
+
+    .profilemain p {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .tool {
+        width: 50%;
+    }
+
+
+    #section-2 {
+        height: 170vh;
+    }
+
+
+    .banner {
+        width: 80%;
+    }
+
+        .popup {
+    width:80%;
+}
+
+
+}
+
+@media screen and (max-width:980px) {
+    .section3-text {
+        font-size: 2rem;
+    }
+
+    .section4-text {
+        font-size: 2rem;
+    }
+
+    .projects {
+        width: 70%;
+        margin: 0 auto;
+        gap: 100px;
+    }
+
+    .projecttext {
+        font-size: 0.8rem;
+        width: 50%;
+        gap: 30px;
+    }
+
+
+    .museum,
+    .daegu,
+    .mono {
+        width: 400px;
+        height: 400px;
+    }
+
+    .bing {
+        width: 100%;
+        height: 100px;
+    }
+
+    .hypen {
+        background: url(../images/hypen.png)no-repeat center/contain;
+        width: 100%;
+        height: 100px;
+    }
+
+    .projectbtn-2 {
+        gap: 10px;
+        margin-top: 2%
+    }
+
+    .projectbtn-2 a {
+        width: 80px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        transition: all .5s;
+        color: rgb(250, 250, 245);
+        font-size: 0.8rem;
+    }
+
+    .cloncoding {
+        margin: 5%;
+        flex-wrap: wrap;
+    }
+
+    .cloncoding h1 {
+        padding: 0 30%;
+    }
+
+    .cloncoding .project-2 {
+        width: 40%;
+    }
+
+    .scrollapp {
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+
+
+    .introtext {
+    font-size: 2rem;
+}
+
+
+    .section-1 .introtext-2 p {
+        font-size: 2rem;
+        line-height: 60px;
+    }
+
+
+    .tool img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+
+    .scroll-wrapper {
+        display: none;
+    }
+
+    .museum,
+    .daegu,
+    .mono {
+        width: 300px;
+        height: 300px;
+    }
+
+    .profileimgs {
+        width: 300px;
+        height: 350px;
+    }
+
+    .profilemain p {
+        font-size: 1rem;
+    }
+
+    .profilemain {
+        gap: 50px;
+    }
+
+    .scrollapp {
+        width: 80%;
+    }
+
+
+    #header nav li {
+        width: 90px;
+    }
+
+    #header nav ul a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:615px) {
+
+    .section-1 .introtext-2 p {
+        font-size: 1.7rem;
+        line-height: 50px;
+    }
+
+
+
+    .projectbtn a,
+    .projectbtn-2 a {
+        width: 100px;
+        height: 40px;
+    }
+
+    .profileimgs {
+        width: 250px;
+        height: 300px;
+    }
+
+    .museum,
+    .daegu,
+    .mono {
+        width: 250px;
+        height: 250px;
+    }
+
+    .cloncoding {
+        padding: 0 10%;
+    }
+
+    .project-1 {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .section3-text,
+    .section4-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .profiletext {
+        text-align: center;
+    }
+
+    .profiletext h2 {
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+
+    .foodtext img {
+        width: 80%;
+    }
+
+    .project-1 {
+        flex-direction: column;
+    }
+
+    #column {
+        flex-direction: column-reverse;
+    }
+
+    .projecttext {
+        width: 70%;
+        text-align: left;
+        gap: 30px;
+    }
+
+    .foodos {
+        gap: 0px;
+    }
+
+    .foodotext h3 {
+        display: none;
+    }
+
+    .foodo {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    .circle2 {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    #section-4 h2 {
+        font-size: 3rem;
+    }
+
+    .profiletext-2 {
+        flex-direction: column;
+    }
+
+    .license {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    #section-2 {
+        height: 150vh;
+    }
+
+    .profilemain-2 {
+        gap: 20px;
+    }
+
+
+    #header .inner {
+        width: 92%;
+    }
+
+    #header nav ul {
+        gap: 0;
+    }
+
+    #header nav li {
+        width: 90px;
+        height: 30px;
+        background: none;
+    }
+
+    #header nav ul li.on {
+        background: none;
+    }
+
+    #header nav ul a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+
+
+    .intro {
+        height: 100vh;
+    }
+        .introtext {
+    font-size: 1.5rem;
+}
+        .section-1 .introtext-2 p {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+
+    #header h1 a {
+        font-size: 3rem;
+    }
+
+    .profilemain p {
+        font-size: 1rem;
+    }
+
+    .profiletext {
+        line-height: 30px;
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+
+    .profiletext-2 {
+        line-height: 30px;
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+
+    .tool {
+        font-size: 0.6rem;
+    }
+
+
+    .projectbtn-2 {
+        width: 150px;
+    }
+
+    .projectbtn-2 a {
+        font-size: 0.8rem;
+    }
+
+    .cloncoding {
+        padding: 0;
+    }
+
+    .circle2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    #section-4 {
+        padding: 10% 0 0;
+        gap: 20px;
+    }
+
+    .banner {
+        width: 90%;
+    }
+
+    .food {
+        width: 50%;
+    }
+
+        .popup {
+    width:90%;
+    padding: 2rem;
+}
+
+.scroll-icon {
+    display: none;
+}
+
+}
