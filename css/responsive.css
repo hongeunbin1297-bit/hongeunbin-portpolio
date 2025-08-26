@@ -148,9 +148,9 @@
         width: 80%;
     }
 
-        .popup {
-    width:80%;
-}
+    .popup {
+        width: 80%;
+    }
 
 
 }
@@ -236,8 +236,8 @@
 
 
     .introtext {
-    font-size: 2rem;
-}
+        font-size: 2rem;
+    }
 
 
     .section-1 .introtext-2 p {
@@ -444,11 +444,14 @@
     .intro {
         height: 100vh;
     }
-        .introtext {
-    font-size: 1.5rem;
-}
-        .section-1 .introtext-2 p {
-        font-size: 1.2rem;
+
+    .introtext {
+        font-size: 1.5rem;
+    }
+
+    .section-1 .introtext-2 p {
+        font-size: 1.1rem;
+        font-weight: bold;
         line-height: 30px;
     }
 
@@ -477,11 +480,6 @@
         font-size: 0.6rem;
     }
 
-
-    .projectbtn-2 {
-        width: 150px;
-    }
-
     .projectbtn-2 a {
         font-size: 0.8rem;
     }
@@ -496,7 +494,7 @@
     }
 
     #section-4 {
-        padding: 10% 0 0;
+        padding: 30% 0 0;
         gap: 20px;
     }
 
@@ -508,13 +506,37 @@
         width: 50%;
     }
 
-        .popup {
-    width:90%;
-    padding: 2rem;
-}
+    .popup {
+        width: 90%;
+        padding: 2rem;
+    }
 
-.scroll-icon {
-    display: none;
-}
+    .scroll-icon {
+        display: none;
+    }
 
+    .popup {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .museum,
+    .daegu,
+    .mono {
+        width: 300px;
+        height: 300px;
+    }
+
+    .projecttext {
+        width: 90%;
+    }
+    .profiletext h2 {
+        font-size: 1.2rem;
+    }
+     .profiletext-2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .profilemain p {
+        font-size: 1.3rem;
+    }
 }
