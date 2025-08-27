@@ -25,6 +25,10 @@
         height: 100px;
     }
 
+    .banner {
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width:1312px) {
@@ -50,6 +54,17 @@
         top: 63%;
         left: 25%;
     }
+}
+
+@media screen and (max-width:1190px) {
+
+    .page1,
+    .page2 {
+        width: 400px;
+        height: 400px;
+        gap: 80px;
+    }
+
 }
 
 @media screen and (max-width:1024px) {
@@ -144,25 +159,17 @@
     }
 
 
-    .banner {
-        width: 80%;
-    }
-
     .popup {
         width: 80%;
     }
 
+    .pages {
+        gap: 30px;
+    }
 
 }
 
 @media screen and (max-width:980px) {
-    .section3-text {
-        font-size: 2rem;
-    }
-
-    .section4-text {
-        font-size: 2rem;
-    }
 
     .projects {
         width: 70%;
@@ -229,10 +236,37 @@
         gap: 10px;
     }
 
+
+    .section3-text {
+        font-size: 2.3rem;
+    }
+
+    .section4-text {
+        font-size: 2.3rem;
+    }
+
+}
+
+
+@media screen and (max-width:815px) {
+
+
+    .section3-text {
+        font-size: 2rem;
+    }
+
+    .section4-text {
+        font-size: 2rem;
+    }
+
+    .page1,
+    .page2 {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 @media screen and (max-width:768px) {
-
 
 
     .introtext {
@@ -289,9 +323,23 @@
     #header nav ul a {
         font-size: 1rem;
     }
+
 }
 
+@media screen and (max-width:735px) {
+.page1,.page2 {
+    width: 300px;
+    height: 300px;
+}
+
+}
 @media screen and (max-width:615px) {
+
+
+    .pages {
+        flex-wrap: wrap;
+        gap: 50px
+    }
 
     .section-1 .introtext-2 p {
         font-size: 1.7rem;
@@ -440,6 +488,15 @@
 @media screen and (max-width:425px) {
 
 
+        .page1, .page2 {
+        width: 350px;
+        height: 350px;
+   
+}
+
+    .profilemain p {
+        font-size: 1rem;
+    }
 
     .intro {
         height: 100vh;
@@ -460,9 +517,6 @@
         font-size: 3rem;
     }
 
-    .profilemain p {
-        font-size: 1rem;
-    }
 
     .profiletext {
         line-height: 30px;
@@ -529,14 +583,40 @@
     .projecttext {
         width: 90%;
     }
+
     .profiletext h2 {
         font-size: 1.2rem;
     }
-     .profiletext-2 h2 {
+
+    .profiletext-2 h2 {
         font-size: 1.2rem;
     }
 
     .profilemain p {
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+
+    .profiletext h2 {
+        margin: 0;
+    }
+
+    .profiletext {
+        text-align: left;
+        margin-bottom: 3%;
+    }
+
+
+    .profiletext-2 {
+        text-align: left;
+    }
+
+    .license {
+        margin-left: 33%;
+        align-items: start;
+    }
+
+    .profiletext h2,
+    .profiletext-2 h2 {
+        margin-bottom: 3%;
     }
 }

@@ -116,7 +116,7 @@ a {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     opacity: 0;
     pointer-events: none;
-     transition: opacity 0.6s ease;
+    transition: opacity 0.6s ease;
 }
 
 #header.show {
@@ -302,12 +302,14 @@ a {
 #section-2 p {
     word-break: keep-all;
     transition: all .5s;
-}
 
+}
 
 #section-2 p:hover {
-    color: #b80c0c;
+ color: #b80c0c;
 }
+
+
 
 #section-2 {
     width: 100%;
@@ -318,7 +320,6 @@ a {
     justify-content: center;
     background-color: rgb(250, 250, 245);
     gap: 45px;
-    padding-top: 100px;
 }
 
 
@@ -333,7 +334,7 @@ a {
 
 .profile {
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: space-around;
 }
 
@@ -373,6 +374,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 .profiletext {
     line-height: 45px;
     display: flex;
@@ -938,19 +940,26 @@ a {
     height: 100%;
     border-radius: 50px;
     border: none;
-    
 }
 
 .banner6 {
+    background: url('../images/windy.png')no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner7 {
     background: url('../images/summer.png')no-repeat center/cover;
     width: 100%;
     height: 100%;
     border-radius: 50px;
     border: none;
-    
+
 }
 
-.banner7 {
+.banner8 {
     background: url('../images/earth.png')no-repeat center/cover;
     width: 100%;
     height: 100%;
@@ -958,18 +967,41 @@ a {
     border: none;
 }
 
-.page1 {
-    background: url('../images/detail1.jpg')no-repeat center/cover;
+
+.banner9 {
+    background: url('../images/luckybox.png')no-repeat center/cover;
     width: 100%;
     height: 100%;
     border-radius: 50px;
     border: none;
 }
 
+.page {
+    position: relative;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.page1 {
+    background: url('../images/detail1.jpg')no-repeat center/cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border: none;
+    transition: all .3s;
+}
+
 .page2 {
     background: url('../images/datail-2.jpg')no-repeat center/cover;
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
     border-radius: 50px;
     border: none;
 }
@@ -1005,6 +1037,13 @@ a {
 #banners:hover p {
     bottom: 0;
     color: rgb(10, 10, 10);
+}
+
+/* 디테일디자인 */
+.detaildesign {
+    width: 100%;
+    background-color: rgb(250, 250, 245);
+    padding-bottom: 7%;
 }
 
 /* section-4 */
@@ -1080,7 +1119,7 @@ a {
 
 
 .popup {
-    width: 50%;
+    width: 40%;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     top: 50%;
