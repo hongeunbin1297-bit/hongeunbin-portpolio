@@ -59,7 +59,7 @@
 @media screen and (max-width:1190px) {
 
     .page1,
-    .page2 {
+    .page2, .page3 {
         width: 400px;
         height: 400px;
         gap: 80px;
@@ -163,10 +163,6 @@
         width: 80%;
     }
 
-    .pages {
-        gap: 30px;
-    }
-
 }
 
 @media screen and (max-width:980px) {
@@ -260,7 +256,7 @@
     }
 
     .page1,
-    .page2 {
+    .page2, .page3 {
         width: 350px;
         height: 350px;
     }
@@ -327,7 +323,7 @@
 }
 
 @media screen and (max-width:735px) {
-.page1,.page2 {
+.page1,.page2, .page3 {
     width: 300px;
     height: 300px;
 }
@@ -488,7 +484,7 @@
 @media screen and (max-width:425px) {
 
 
-        .page1, .page2 {
+        .page1, .page2, .page3 {
         width: 350px;
         height: 350px;
    
